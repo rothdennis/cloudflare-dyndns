@@ -7,9 +7,12 @@ Supported plattforms:
 |Plattform|Architecture|
 |---|---|
 |Linux|amd64|
+|Linux|arm64|
+|Linux|arm/v7|
 
 Supported registries:
-- [GitHub Container Registry]()
+- [GitHub Container Registry](https://github.com/rothdennis/cloudflare-dyndns/pkgs/container/cloudflare-dyndns)
+- [Docker Hub](https://hub.docker.com/r/rothdennis/cloudflare-dyndns)
 
 ## Usage
 
@@ -18,7 +21,7 @@ Example `compose.yml`:
 ```yml
 services:
   cloudflare-dyndns:
-    image: ghcr.io/rothdennis/cloudflare-dyndns
+    image: rothdennis/cloudflare-dyndns
     container_name: cloudflare-dyndns
     restart: unless-stopped
     environment:
