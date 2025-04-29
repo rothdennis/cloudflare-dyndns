@@ -33,6 +33,7 @@ services:
       ZONE_ID : << ZONE ID >>
       API_TOKEN : << API TOKEN >>
       SUBDOMAIN : << SUBDOMAIN >>
-      USE_IPV6 : True               # Optional, default: False
+      REFRESH_INTERVAL: 1800        # Optional, default: 300
+      IPV6 : True                   # Optional, default: False
       PROXIED : True                # Optional, default: False
 ```
