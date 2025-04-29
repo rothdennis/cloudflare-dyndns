@@ -1,6 +1,6 @@
 FROM python:3.13-alpine3.21
 
-LABEL org.opencontainers.image.source="https://github.com/rothdennis/docker-cloudflare-dyndns"
+LABEL org.opencontainers.image.source="https://github.com/rothdennis/cloudflare-dyndns"
 LABEL org.opencontainers.image.description="Update Cloudflare DNS records with dynamic IP address"
 LABEL org.opencontainers.image.authors="Dennis Roth"
 
